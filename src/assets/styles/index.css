@@ -10,4 +10,6 @@ body {
   --color-secondary: rgb(16, 185, 129);
   --color-tertiary: rgb(148, 163, 184);
   --color-quaternary: rgb(241, 245, 249);
+  --color-green: rgb(22, 163, 74);
+  --color-red: rgb(239, 68, 68);
 }
