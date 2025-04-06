@@ -16,7 +16,7 @@ export default function SessionForm(props) {
       </h1>
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col">
         <input
-          type="mail"
+          type="email"
           className="w-[378px] h-[42px] border border-tertiary rounded-[4px] p-[9px]"
           {...register("email", {
             required: { value: true, message: "An email address is required" },
